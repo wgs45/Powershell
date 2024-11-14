@@ -1,5 +1,4 @@
 Write-Host "Title: Variables and operators..."
-
 # storing datas into variables
 $test_string_variables = "Hello, world!"
 $pi = 3.14
@@ -65,4 +64,7 @@ $color.GetType().Name
 $date.GetType().Name
 $date_data_type.GetType().Name
 
+Write-Host "----------------------------------------"
 
+Write-Host "Hello $Env:USERS!"
+Write-Host We can access environment variables in scripts."
