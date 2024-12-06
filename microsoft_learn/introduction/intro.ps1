@@ -9,6 +9,8 @@ Get-Verb
 Get-Command
 Get-Command -Noun alias*
 Get-Command -Verb Get -Noun alias*
+Get-Command -Noun File*
+Get-Command -Verb Get -Noun File*
 
 # Get help
 Get-Help
